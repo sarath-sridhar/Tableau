@@ -1,0 +1,1358 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='number_of_beneficiaries_under_t (number_of_beneficiaries_under_tnepf_fund_during_2017_18)' inline='true' name='federated.1kbkpjq1pqnnat1h49jiy0t2hhvr' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='number_of_beneficiaries_under_tnepf_fund_during_2017_18' name='excel-direct.19b92el1wn1rjb1ceig0w05ig67v'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/saraths/Documents/PL300/Tableau/number_of_beneficiaries_under_tnepf_fund_during_2017_18.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.19b92el1wn1rjb1ceig0w05ig67v' name='number_of_beneficiaries_under_t' table='[number_of_beneficiaries_under_t$]' type='table'>
+          <columns gridOrigin='A1:AG32:no:A1:AG32:1' header='yes' lost='0' outcome='1' processed='754'>
+            <column datatype='integer' name='S. No' ordinal='0' />
+            <column datatype='string' name='District' ordinal='1' />
+            <column datatype='integer' name='Life Time Destitute Grant' ordinal='2' />
+            <column datatype='integer' name='Old Age Pension' ordinal='3' />
+            <column datatype='integer' name='Blind relief Grant' ordinal='4' />
+            <column datatype='integer' name='Blind Relief Grant (Ch)' ordinal='5' />
+            <column datatype='integer' name='leprosy Relief Grant' ordinal='6' />
+            <column datatype='integer' name='leprosy Relief Grant (Ch)' ordinal='7' />
+            <column datatype='integer' name='Gift Articles Grant to Leprosy Patients' ordinal='8' />
+            <column datatype='integer' name='Cancer Relief Grant' ordinal='9' />
+            <column datatype='integer' name='Cancer Relief Grant (Ch)' ordinal='10' />
+            <column datatype='integer' name='Paraplegic Relief Grant' ordinal='11' />
+            <column datatype='integer' name='Paraplegic Relief Grant (Ch)' ordinal='12' />
+            <column datatype='integer' name='Tuberclosis Grant' ordinal='13' />
+            <column datatype='integer' name='Tuberclosis Grant (Ch)' ordinal='14' />
+            <column datatype='integer' name='Pocket Money to inmates of Government Hospital with Tuberclosis &amp; Leprosy' ordinal='15' />
+            <column datatype='integer' name='Mentally Retarded Children Grant' ordinal='16' />
+            <column datatype='integer' name='Mentally Challenged Grant Wife' ordinal='17' />
+            <column datatype='integer' name='Mentally Challenged Grant Widow' ordinal='18' />
+            <column datatype='integer' name='Differently Abled Grant to Ex-Servicemen / Dependants' ordinal='19' />
+            <column datatype='integer' name='Monthly Grant for Ex-Service Men' ordinal='20' />
+            <column datatype='integer' name='Monthly grant Widows' ordinal='21' />
+            <column datatype='integer' name='World War Grant to Ex-Service Men' ordinal='22' />
+            <column datatype='integer' name='World War Grant to Widows' ordinal='23' />
+            <column datatype='integer' name='Tailoring Unit Grant (Sewing)' ordinal='24' />
+            <column datatype='integer' name='Tailoring Unit training Expenditure' ordinal='25' />
+            <column datatype='integer' name='Marriage Grant' ordinal='26' />
+            <column datatype='integer' name='Artificial Limbs Grant' ordinal='27' />
+            <column datatype='integer' name='Funeral Grant' ordinal='28' />
+            <column datatype='integer' name='Natural Calamities Grant' ordinal='29' />
+            <column datatype='integer' name='District Education Cash Award (DECA)' ordinal='30' />
+            <column datatype='integer' name='House Tax Reimbursement' ordinal='31' />
+            <column datatype='integer' name='Physical Education Training' ordinal='32' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AG32:no:A1:AG32:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>754</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S. No</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[S. No]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>S. No</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>District</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[District]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>District</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Life Time Destitute Grant</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Life Time Destitute Grant]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Life Time Destitute Grant</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Old Age Pension</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Old Age Pension]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Old Age Pension</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Blind relief Grant</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Blind relief Grant]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Blind relief Grant</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Blind Relief Grant (Ch)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Blind Relief Grant (Ch)]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Blind Relief Grant (Ch)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>leprosy Relief Grant</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[leprosy Relief Grant]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>leprosy Relief Grant</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>leprosy Relief Grant (Ch)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[leprosy Relief Grant (Ch)]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>leprosy Relief Grant (Ch)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gift Articles Grant to Leprosy Patients</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Gift Articles Grant to Leprosy Patients]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Gift Articles Grant to Leprosy Patients</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cancer Relief Grant</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cancer Relief Grant]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Cancer Relief Grant</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cancer Relief Grant (Ch)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cancer Relief Grant (Ch)]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Cancer Relief Grant (Ch)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Paraplegic Relief Grant</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Paraplegic Relief Grant]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Paraplegic Relief Grant</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Paraplegic Relief Grant (Ch)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Paraplegic Relief Grant (Ch)]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Paraplegic Relief Grant (Ch)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tuberclosis Grant</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tuberclosis Grant]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Tuberclosis Grant</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tuberclosis Grant (Ch)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tuberclosis Grant (Ch)]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Tuberclosis Grant (Ch)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pocket Money to inmates of Government Hospital with Tuberclosis &amp; Leprosy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pocket Money to inmates of Government Hospital with Tuberclosis &amp; Leprosy]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Pocket Money to inmates of Government Hospital with Tuberclosis &amp; Leprosy</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mentally Retarded Children Grant</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Mentally Retarded Children Grant]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Mentally Retarded Children Grant</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mentally Challenged Grant Wife</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Mentally Challenged Grant Wife]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Mentally Challenged Grant Wife</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mentally Challenged Grant Widow</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Mentally Challenged Grant Widow]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Mentally Challenged Grant Widow</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Differently Abled Grant to Ex-Servicemen / Dependants</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Differently Abled Grant to Ex-Servicemen / Dependants]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Differently Abled Grant to Ex-Servicemen / Dependants</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Monthly Grant for Ex-Service Men</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Monthly Grant for Ex-Service Men]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Monthly Grant for Ex-Service Men</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Monthly grant Widows</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Monthly grant Widows]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Monthly grant Widows</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>World War Grant to Ex-Service Men</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[World War Grant to Ex-Service Men]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>World War Grant to Ex-Service Men</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>World War Grant to Widows</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[World War Grant to Widows]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>World War Grant to Widows</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tailoring Unit Grant (Sewing)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tailoring Unit Grant (Sewing)]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Tailoring Unit Grant (Sewing)</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tailoring Unit training Expenditure</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tailoring Unit training Expenditure]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Tailoring Unit training Expenditure</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Marriage Grant</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Marriage Grant]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Marriage Grant</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Artificial Limbs Grant</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Artificial Limbs Grant]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Artificial Limbs Grant</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Funeral Grant</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Funeral Grant]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Funeral Grant</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Natural Calamities Grant</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Natural Calamities Grant]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Natural Calamities Grant</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>District Education Cash Award (DECA)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[District Education Cash Award (DECA)]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>District Education Cash Award (DECA)</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>House Tax Reimbursement</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[House Tax Reimbursement]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>House Tax Reimbursement</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Physical Education Training</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Physical Education Training]</local-name>
+            <parent-name>[number_of_beneficiaries_under_t]</parent-name>
+            <remote-alias>Physical Education Training</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='DistrictwiseBeneficiaries' datatype='integer' name='[Calculation_7206603863944007681]' role='measure' type='ordinal'>
+        <calculation class='tableau' formula='SUM(ZN([Life Time Destitute Grant])) +&#13;&#10;SUM(ZN([Old Age Pension])) +&#13;&#10;SUM(ZN([Blind relief Grant])) +&#13;&#10;SUM(ZN([Blind Relief Grant (Ch)])) +&#13;&#10;SUM(ZN([leprosy Relief Grant])) +&#13;&#10;SUM(ZN([leprosy Relief Grant (Ch)])) +&#13;&#10;SUM(ZN([Gift Articles Grant to Leprosy Patients])) +&#13;&#10;SUM(ZN([Cancer Relief Grant])) +&#13;&#10;SUM(ZN([Cancer Relief Grant (Ch)])) +&#13;&#10;SUM(ZN([Paraplegic Relief Grant])) +&#13;&#10;SUM(ZN([Paraplegic Relief Grant (Ch)])) +&#13;&#10;SUM(ZN([Tuberclosis Grant])) +&#13;&#10;SUM(ZN([Tuberclosis Grant (Ch)])) +&#13;&#10;SUM(ZN([Pocket Money to inmates of Government Hospital with Tuberclosis &amp; Leprosy])) +&#13;&#10;SUM(ZN([Mentally Retarded Children Grant])) +&#13;&#10;SUM(ZN([Mentally Challenged Grant Wife])) +&#13;&#10;SUM(ZN([Mentally Challenged Grant Widow])) +&#13;&#10;SUM(ZN([Differently Abled Grant to Ex-Servicemen / Dependants])) +&#13;&#10;SUM(ZN([Monthly Grant for Ex-Service Men])) +&#13;&#10;SUM(ZN([Monthly grant Widows])) +&#13;&#10;SUM(ZN([World War Grant to Ex-Service Men])) +&#13;&#10;SUM(ZN([World War Grant to Widows])) +&#13;&#10;SUM(ZN([Tailoring Unit Grant (Sewing)])) +&#13;&#10;SUM(ZN([Tailoring Unit training Expenditure])) +&#13;&#10;SUM(ZN([Marriage Grant])) +&#13;&#10;SUM(ZN([Artificial Limbs Grant])) +&#13;&#10;SUM(ZN([Funeral Grant])) +&#13;&#10;SUM(ZN([Natural Calamities Grant])) +&#13;&#10;SUM(ZN([District Education Cash Award (DECA)])) +&#13;&#10;SUM(ZN([House Tax Reimbursement])) +&#13;&#10;SUM(ZN([Physical Education Training]))' />
+      </column>
+      <column caption='number_of_beneficiaries_under_t' datatype='table' name='[__tableau_internal_object_id__].[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/saraths/AppData/Local/Temp/TableauTemp/#TableauTemp_0fimz7h1sbk5dd17zll020x9w1rw.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='01/12/2025 03:29:51 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>S. No</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[S. No]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>S. No</remote-alias>
+              <ordinal>0</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>District</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[District]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>District</remote-alias>
+              <ordinal>1</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Life Time Destitute Grant</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Life Time Destitute Grant]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Life Time Destitute Grant</remote-alias>
+              <ordinal>2</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Old Age Pension</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Old Age Pension]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Old Age Pension</remote-alias>
+              <ordinal>3</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Blind relief Grant</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Blind relief Grant]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Blind relief Grant</remote-alias>
+              <ordinal>4</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Blind Relief Grant (Ch)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Blind Relief Grant (Ch)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Blind Relief Grant (Ch)</remote-alias>
+              <ordinal>5</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>leprosy Relief Grant</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[leprosy Relief Grant]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>leprosy Relief Grant</remote-alias>
+              <ordinal>6</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>leprosy Relief Grant (Ch)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[leprosy Relief Grant (Ch)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>leprosy Relief Grant (Ch)</remote-alias>
+              <ordinal>7</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gift Articles Grant to Leprosy Patients</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Gift Articles Grant to Leprosy Patients]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gift Articles Grant to Leprosy Patients</remote-alias>
+              <ordinal>8</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Cancer Relief Grant</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Cancer Relief Grant]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Cancer Relief Grant</remote-alias>
+              <ordinal>9</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Cancer Relief Grant (Ch)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Cancer Relief Grant (Ch)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Cancer Relief Grant (Ch)</remote-alias>
+              <ordinal>10</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Paraplegic Relief Grant</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Paraplegic Relief Grant]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Paraplegic Relief Grant</remote-alias>
+              <ordinal>11</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Paraplegic Relief Grant (Ch)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Paraplegic Relief Grant (Ch)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Paraplegic Relief Grant (Ch)</remote-alias>
+              <ordinal>12</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tuberclosis Grant</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Tuberclosis Grant]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Tuberclosis Grant</remote-alias>
+              <ordinal>13</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tuberclosis Grant (Ch)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Tuberclosis Grant (Ch)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Tuberclosis Grant (Ch)</remote-alias>
+              <ordinal>14</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pocket Money to inmates of Government Hospital with Tuberclosis &amp; Leprosy</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Pocket Money to inmates of Government Hospital with Tuberclosis &amp; Leprosy]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pocket Money to inmates of Government Hospital with Tuberclosis &amp; Leprosy</remote-alias>
+              <ordinal>15</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Mentally Retarded Children Grant</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Mentally Retarded Children Grant]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Mentally Retarded Children Grant</remote-alias>
+              <ordinal>16</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Mentally Challenged Grant Wife</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Mentally Challenged Grant Wife]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Mentally Challenged Grant Wife</remote-alias>
+              <ordinal>17</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Mentally Challenged Grant Widow</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Mentally Challenged Grant Widow]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Mentally Challenged Grant Widow</remote-alias>
+              <ordinal>18</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Differently Abled Grant to Ex-Servicemen / Dependants</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Differently Abled Grant to Ex-Servicemen / Dependants]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Differently Abled Grant to Ex-Servicemen / Dependants</remote-alias>
+              <ordinal>19</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Monthly Grant for Ex-Service Men</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Monthly Grant for Ex-Service Men]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Monthly Grant for Ex-Service Men</remote-alias>
+              <ordinal>20</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>21</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Monthly grant Widows</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Monthly grant Widows]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Monthly grant Widows</remote-alias>
+              <ordinal>21</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>World War Grant to Ex-Service Men</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[World War Grant to Ex-Service Men]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>World War Grant to Ex-Service Men</remote-alias>
+              <ordinal>22</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>World War Grant to Widows</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[World War Grant to Widows]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>World War Grant to Widows</remote-alias>
+              <ordinal>23</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tailoring Unit Grant (Sewing)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Tailoring Unit Grant (Sewing)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Tailoring Unit Grant (Sewing)</remote-alias>
+              <ordinal>24</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tailoring Unit training Expenditure</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Tailoring Unit training Expenditure]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Tailoring Unit training Expenditure</remote-alias>
+              <ordinal>25</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Marriage Grant</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Marriage Grant]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Marriage Grant</remote-alias>
+              <ordinal>26</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Artificial Limbs Grant</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Artificial Limbs Grant]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Artificial Limbs Grant</remote-alias>
+              <ordinal>27</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Funeral Grant</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Funeral Grant]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Funeral Grant</remote-alias>
+              <ordinal>28</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Natural Calamities Grant</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Natural Calamities Grant]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Natural Calamities Grant</remote-alias>
+              <ordinal>29</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>District Education Cash Award (DECA)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[District Education Cash Award (DECA)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>District Education Cash Award (DECA)</remote-alias>
+              <ordinal>30</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>House Tax Reimbursement</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[House Tax Reimbursement]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>House Tax Reimbursement</remote-alias>
+              <ordinal>31</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Physical Education Training</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Physical Education Training]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Physical Education Training</remote-alias>
+              <ordinal>32</ordinal>
+              <family>number_of_beneficiaries_under_t</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='S. No' />
+        <field-sort-custom-order field='District' />
+        <field-sort-custom-order field='Life Time Destitute Grant' />
+        <field-sort-custom-order field='Old Age Pension' />
+        <field-sort-custom-order field='Blind relief Grant' />
+        <field-sort-custom-order field='Blind Relief Grant (Ch)' />
+        <field-sort-custom-order field='leprosy Relief Grant' />
+        <field-sort-custom-order field='leprosy Relief Grant (Ch)' />
+        <field-sort-custom-order field='Gift Articles Grant to Leprosy Patients' />
+        <field-sort-custom-order field='Cancer Relief Grant' />
+        <field-sort-custom-order field='Cancer Relief Grant (Ch)' />
+        <field-sort-custom-order field='Paraplegic Relief Grant' />
+        <field-sort-custom-order field='Paraplegic Relief Grant (Ch)' />
+        <field-sort-custom-order field='Tuberclosis Grant' />
+        <field-sort-custom-order field='Tuberclosis Grant (Ch)' />
+        <field-sort-custom-order field='Pocket Money to inmates of Government Hospital with Tuberclosis &amp; Leprosy' />
+        <field-sort-custom-order field='Mentally Retarded Children Grant' />
+        <field-sort-custom-order field='Mentally Challenged Grant Wife' />
+        <field-sort-custom-order field='Mentally Challenged Grant Widow' />
+        <field-sort-custom-order field='Differently Abled Grant to Ex-Servicemen / Dependants' />
+        <field-sort-custom-order field='Monthly Grant for Ex-Service Men' />
+        <field-sort-custom-order field='Monthly grant Widows' />
+        <field-sort-custom-order field='World War Grant to Ex-Service Men' />
+        <field-sort-custom-order field='World War Grant to Widows' />
+        <field-sort-custom-order field='Tailoring Unit Grant (Sewing)' />
+        <field-sort-custom-order field='Tailoring Unit training Expenditure' />
+        <field-sort-custom-order field='Marriage Grant' />
+        <field-sort-custom-order field='Artificial Limbs Grant' />
+        <field-sort-custom-order field='Funeral Grant' />
+        <field-sort-custom-order field='Natural Calamities Grant' />
+        <field-sort-custom-order field='District Education Cash Award (DECA)' />
+        <field-sort-custom-order field='House Tax Reimbursement' />
+        <field-sort-custom-order field='Physical Education Training' />
+        <field-sort-custom-order field='Calculation_7206603863944007681' />
+        <field-sort-custom-order field='Calculation_7206603863943327744' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <object-graph>
+        <objects>
+          <object caption='number_of_beneficiaries_under_t' id='number!of!beneficiaries!under!t_C4D854CE05D4457FB63807CC1D3597B7'>
+            <properties context=''>
+              <relation connection='excel-direct.19b92el1wn1rjb1ceig0w05ig67v' name='number_of_beneficiaries_under_t' table='[number_of_beneficiaries_under_t$]' type='table'>
+                <columns gridOrigin='A1:AG32:no:A1:AG32:1' header='yes' lost='0' outcome='1' processed='754'>
+                  <column datatype='integer' name='S. No' ordinal='0' />
+                  <column datatype='string' name='District' ordinal='1' />
+                  <column datatype='integer' name='Life Time Destitute Grant' ordinal='2' />
+                  <column datatype='integer' name='Old Age Pension' ordinal='3' />
+                  <column datatype='integer' name='Blind relief Grant' ordinal='4' />
+                  <column datatype='integer' name='Blind Relief Grant (Ch)' ordinal='5' />
+                  <column datatype='integer' name='leprosy Relief Grant' ordinal='6' />
+                  <column datatype='integer' name='leprosy Relief Grant (Ch)' ordinal='7' />
+                  <column datatype='integer' name='Gift Articles Grant to Leprosy Patients' ordinal='8' />
+                  <column datatype='integer' name='Cancer Relief Grant' ordinal='9' />
+                  <column datatype='integer' name='Cancer Relief Grant (Ch)' ordinal='10' />
+                  <column datatype='integer' name='Paraplegic Relief Grant' ordinal='11' />
+                  <column datatype='integer' name='Paraplegic Relief Grant (Ch)' ordinal='12' />
+                  <column datatype='integer' name='Tuberclosis Grant' ordinal='13' />
+                  <column datatype='integer' name='Tuberclosis Grant (Ch)' ordinal='14' />
+                  <column datatype='integer' name='Pocket Money to inmates of Government Hospital with Tuberclosis &amp; Leprosy' ordinal='15' />
+                  <column datatype='integer' name='Mentally Retarded Children Grant' ordinal='16' />
+                  <column datatype='integer' name='Mentally Challenged Grant Wife' ordinal='17' />
+                  <column datatype='integer' name='Mentally Challenged Grant Widow' ordinal='18' />
+                  <column datatype='integer' name='Differently Abled Grant to Ex-Servicemen / Dependants' ordinal='19' />
+                  <column datatype='integer' name='Monthly Grant for Ex-Service Men' ordinal='20' />
+                  <column datatype='integer' name='Monthly grant Widows' ordinal='21' />
+                  <column datatype='integer' name='World War Grant to Ex-Service Men' ordinal='22' />
+                  <column datatype='integer' name='World War Grant to Widows' ordinal='23' />
+                  <column datatype='integer' name='Tailoring Unit Grant (Sewing)' ordinal='24' />
+                  <column datatype='integer' name='Tailoring Unit training Expenditure' ordinal='25' />
+                  <column datatype='integer' name='Marriage Grant' ordinal='26' />
+                  <column datatype='integer' name='Artificial Limbs Grant' ordinal='27' />
+                  <column datatype='integer' name='Funeral Grant' ordinal='28' />
+                  <column datatype='integer' name='Natural Calamities Grant' ordinal='29' />
+                  <column datatype='integer' name='District Education Cash Award (DECA)' ordinal='30' />
+                  <column datatype='integer' name='House Tax Reimbursement' ordinal='31' />
+                  <column datatype='integer' name='Physical Education Training' ordinal='32' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='number_of_beneficiaries_under_t (number_of_beneficiaries_under_tnepf_fund_during_2017_18)' name='federated.1kbkpjq1pqnnat1h49jiy0t2hhvr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kbkpjq1pqnnat1h49jiy0t2hhvr'>
+            <column datatype='integer' name='[Artificial Limbs Grant]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Blind Relief Grant (Ch)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Blind relief Grant]' role='measure' type='quantitative' />
+            <column caption='DistrictwiseBeneficiaries' datatype='integer' name='[Calculation_7206603863944007681]' role='measure' type='ordinal'>
+              <calculation class='tableau' formula='SUM(ZN([Life Time Destitute Grant])) +&#13;&#10;SUM(ZN([Old Age Pension])) +&#13;&#10;SUM(ZN([Blind relief Grant])) +&#13;&#10;SUM(ZN([Blind Relief Grant (Ch)])) +&#13;&#10;SUM(ZN([leprosy Relief Grant])) +&#13;&#10;SUM(ZN([leprosy Relief Grant (Ch)])) +&#13;&#10;SUM(ZN([Gift Articles Grant to Leprosy Patients])) +&#13;&#10;SUM(ZN([Cancer Relief Grant])) +&#13;&#10;SUM(ZN([Cancer Relief Grant (Ch)])) +&#13;&#10;SUM(ZN([Paraplegic Relief Grant])) +&#13;&#10;SUM(ZN([Paraplegic Relief Grant (Ch)])) +&#13;&#10;SUM(ZN([Tuberclosis Grant])) +&#13;&#10;SUM(ZN([Tuberclosis Grant (Ch)])) +&#13;&#10;SUM(ZN([Pocket Money to inmates of Government Hospital with Tuberclosis &amp; Leprosy])) +&#13;&#10;SUM(ZN([Mentally Retarded Children Grant])) +&#13;&#10;SUM(ZN([Mentally Challenged Grant Wife])) +&#13;&#10;SUM(ZN([Mentally Challenged Grant Widow])) +&#13;&#10;SUM(ZN([Differently Abled Grant to Ex-Servicemen / Dependants])) +&#13;&#10;SUM(ZN([Monthly Grant for Ex-Service Men])) +&#13;&#10;SUM(ZN([Monthly grant Widows])) +&#13;&#10;SUM(ZN([World War Grant to Ex-Service Men])) +&#13;&#10;SUM(ZN([World War Grant to Widows])) +&#13;&#10;SUM(ZN([Tailoring Unit Grant (Sewing)])) +&#13;&#10;SUM(ZN([Tailoring Unit training Expenditure])) +&#13;&#10;SUM(ZN([Marriage Grant])) +&#13;&#10;SUM(ZN([Artificial Limbs Grant])) +&#13;&#10;SUM(ZN([Funeral Grant])) +&#13;&#10;SUM(ZN([Natural Calamities Grant])) +&#13;&#10;SUM(ZN([District Education Cash Award (DECA)])) +&#13;&#10;SUM(ZN([House Tax Reimbursement])) +&#13;&#10;SUM(ZN([Physical Education Training]))' />
+            </column>
+            <column datatype='integer' name='[Cancer Relief Grant (Ch)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Cancer Relief Grant]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Differently Abled Grant to Ex-Servicemen / Dependants]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[District Education Cash Award (DECA)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Funeral Grant]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Gift Articles Grant to Leprosy Patients]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[House Tax Reimbursement]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Life Time Destitute Grant]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Marriage Grant]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Mentally Challenged Grant Widow]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Mentally Challenged Grant Wife]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Mentally Retarded Children Grant]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Monthly Grant for Ex-Service Men]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Monthly grant Widows]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Natural Calamities Grant]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Old Age Pension]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Paraplegic Relief Grant (Ch)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Paraplegic Relief Grant]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Physical Education Training]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Pocket Money to inmates of Government Hospital with Tuberclosis &amp; Leprosy]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Tailoring Unit Grant (Sewing)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Tailoring Unit training Expenditure]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Tuberclosis Grant (Ch)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Tuberclosis Grant]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[World War Grant to Ex-Service Men]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[World War Grant to Widows]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[leprosy Relief Grant (Ch)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[leprosy Relief Grant]' role='measure' type='quantitative' />
+            <column-instance column='[Artificial Limbs Grant]' derivation='Sum' name='[sum:Artificial Limbs Grant:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Blind Relief Grant (Ch)]' derivation='Sum' name='[sum:Blind Relief Grant (Ch):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Blind relief Grant]' derivation='Sum' name='[sum:Blind relief Grant:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Cancer Relief Grant (Ch)]' derivation='Sum' name='[sum:Cancer Relief Grant (Ch):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Cancer Relief Grant]' derivation='Sum' name='[sum:Cancer Relief Grant:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Differently Abled Grant to Ex-Servicemen / Dependants]' derivation='Sum' name='[sum:Differently Abled Grant to Ex-Servicemen / Dependants:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[District Education Cash Award (DECA)]' derivation='Sum' name='[sum:District Education Cash Award (DECA):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Funeral Grant]' derivation='Sum' name='[sum:Funeral Grant:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Gift Articles Grant to Leprosy Patients]' derivation='Sum' name='[sum:Gift Articles Grant to Leprosy Patients:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[House Tax Reimbursement]' derivation='Sum' name='[sum:House Tax Reimbursement:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Life Time Destitute Grant]' derivation='Sum' name='[sum:Life Time Destitute Grant:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Marriage Grant]' derivation='Sum' name='[sum:Marriage Grant:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Mentally Challenged Grant Widow]' derivation='Sum' name='[sum:Mentally Challenged Grant Widow:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Mentally Challenged Grant Wife]' derivation='Sum' name='[sum:Mentally Challenged Grant Wife:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Mentally Retarded Children Grant]' derivation='Sum' name='[sum:Mentally Retarded Children Grant:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Monthly Grant for Ex-Service Men]' derivation='Sum' name='[sum:Monthly Grant for Ex-Service Men:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Monthly grant Widows]' derivation='Sum' name='[sum:Monthly grant Widows:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Natural Calamities Grant]' derivation='Sum' name='[sum:Natural Calamities Grant:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Old Age Pension]' derivation='Sum' name='[sum:Old Age Pension:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_7206603863944007681]' derivation='User' name='[usr:Calculation_7206603863944007681:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[sum:Artificial Limbs Grant:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[sum:Blind Relief Grant (Ch):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[sum:Blind relief Grant:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[sum:Cancer Relief Grant:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[sum:Cancer Relief Grant (Ch):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[sum:Differently Abled Grant to Ex-Servicemen / Dependants:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[sum:District Education Cash Award (DECA):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[usr:Calculation_7206603863944007681:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[sum:Funeral Grant:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[sum:Gift Articles Grant to Leprosy Patients:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[sum:House Tax Reimbursement:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[sum:Life Time Destitute Grant:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[sum:Marriage Grant:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[sum:Mentally Challenged Grant Widow:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[sum:Mentally Challenged Grant Wife:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[sum:Mentally Retarded Children Grant:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[sum:Monthly Grant for Ex-Service Men:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[sum:Monthly grant Widows:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[sum:Natural Calamities Grant:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[sum:Old Age Pension:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{4D52548B-05CC-4412-819E-2B70447E45BB}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{58052668-AE33-456F-A819-F1A60A16714D}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[:Measure Names]</field>
+            <field>[federated.1kbkpjq1pqnnat1h49jiy0t2hhvr].[usr:Calculation_7206603863944007681:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0CD2B66D-D47B-44F6-B692-B41F0125002C}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A86F8F6B-CE4C-4354-BA79-D6847ACF8A8B}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='24' name='Sheet 1' width='64'>
+      iVBORw0KGgoAAAANSUhEUgAAAEAAAAAYCAYAAABKtPtEAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAAAZ0lEQVRYhe2YsQ0AIQzEDvT70TILAzDLt0yYH+Er5OLOdaRYVqq0qioZ02kBmgSgBWgS
+      gBagSQBagCYBaAGaBKAFaOwDPLSAJI31/s6cPa/str+ABKAFaBKAFqBJAFqAxj5Ay1fYnA+5
+      Awsp7mcp5gAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
