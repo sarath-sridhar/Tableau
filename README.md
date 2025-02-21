@@ -104,7 +104,7 @@ This project is licensed under the [MIT License](LICENSE.md) *(or whichever lice
 For questions, feedback, or collaborations:
 - **Name:** Sarath Sridhar
 - **Email:** sarath.pcet@gmail.com
-- **Tableau Public Profile:** [Your Tableau Public URL]
+- **Tableau Public Profile:** https://public.tableau.com/app/profile/sarath.sridhar/vizzes
 
 Feel free to reach out if you have any suggestions or would like to discuss data visualization best practices!
 
